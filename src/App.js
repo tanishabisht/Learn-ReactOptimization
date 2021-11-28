@@ -1,11 +1,18 @@
-import { UseState, UseReducer } from "./components"
+import {
+	// UseState,
+	// UseReducer,
+	// ObjectUseState,
+	ArrayUseState,
+} from "./components"
 
 function App() {
 	console.log("APP")
 	return (
 		<div className="App">
 			{/* <UseState /> */}
-			<UseReducer />
+			{/* <UseReducer /> */}
+			{/* <ObjectUseState /> */}
+			<ArrayUseState />
 		</div>
 	)
 }

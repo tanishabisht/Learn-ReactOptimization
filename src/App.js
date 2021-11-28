@@ -2,7 +2,11 @@ import {
 	// UseState,
 	// UseReducer,
 	// ObjectUseState,
-	ArrayUseState,
+	// ArrayUseState,
+	// Parent,
+	GrandParent,
+	// ParentOne,
+	// ChildOne,
 } from "./components"
 
 function App() {
@@ -12,7 +16,12 @@ function App() {
 			{/* <UseState /> */}
 			{/* <UseReducer /> */}
 			{/* <ObjectUseState /> */}
-			<ArrayUseState />
+			{/* <ArrayUseState /> */}
+			{/* <Parent /> */}
+			{/* <ParentOne>
+				<ChildOne />
+			</ParentOne> */}
+			<GrandParent />
 		</div>
 	)
 }

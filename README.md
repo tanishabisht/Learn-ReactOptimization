@@ -28,9 +28,14 @@ Unnecessary Renders is when the child component goes through the render phase bu
 
 - a component can re-render if it calls a setter function or a dispatch function
 - a component can render if its parent component rendered
+- react context, using contextAPI
 
 ## Prevent Unnecessary Renders
 
 - Same Element Reference
+
   - pass components as props ... as `component can change its state but not props` ... then react automatically provides the optimization
   - whenever there is a re-render cased by a change in the state of the parent component, React will optimize the re-render for you by knowing that the props has to be referencing the same element before and after the render.
+
+- React.memo
+  - Re-render only if its props changed

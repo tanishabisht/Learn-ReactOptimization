@@ -4,9 +4,14 @@ import {
 	// ObjectUseState,
 	// ArrayUseState,
 	// Parent,
-	GrandParent,
+	// GrandParent,
 	// ParentOne,
 	// ChildOne,
+	// ParentTwo,
+	// ParentIncorrectChildren,
+	// ParentImpureComponent,
+	// ParentPropsRef,
+	ParentUseMemo,
 } from "./components"
 
 function App() {
@@ -21,7 +26,12 @@ function App() {
 			{/* <ParentOne>
 				<ChildOne />
 			</ParentOne> */}
-			<GrandParent />
+			{/* <GrandParent /> */}
+			{/* <ParentTwo /> */}
+			{/* <ParentIncorrectChildren /> */}
+			{/* <ParentImpureComponent /> */}
+			{/* <ParentPropsRef /> */}
+			<ParentUseMemo />
 		</div>
 	)
 }

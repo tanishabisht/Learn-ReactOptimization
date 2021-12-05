@@ -11,7 +11,8 @@ import {
 	// ParentIncorrectChildren,
 	// ParentImpureComponent,
 	// ParentPropsRef,
-	ParentUseMemo,
+	// ParentUseMemo,
+	ParentContext,
 } from "./components"
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
 			{/* <ParentIncorrectChildren /> */}
 			{/* <ParentImpureComponent /> */}
 			{/* <ParentPropsRef /> */}
-			<ParentUseMemo />
+			{/* <ParentUseMemo /> */}
+			<ParentContext />
 		</div>
 	)
 }

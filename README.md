@@ -39,3 +39,7 @@ Unnecessary Renders is when the child component goes through the render phase bu
 
 - React.memo
   - Re-render only if its props changed
+
+# Reference
+
+https://www.youtube.com/playlist?list=PLC3y8-rFHvwg7czgqpQIBEAHn8D6l530t

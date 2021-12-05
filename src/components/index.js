@@ -22,3 +22,5 @@ export { default as ChildPropsRef } from "./IncorrectOptimization/childPropsRef"
 
 export { default as ParentUseMemo } from "./UseMemo/parent"
 export { default as ChildUseMemo } from "./UseMemo/child"
+
+export { default as ParentContext } from "./Context/parent"
